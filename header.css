@@ -1,0 +1,20 @@
+.cabecalho {
+	background-color: #333;
+	color: white;
+}
+
+.titulo {
+	padding: 10px;
+}
+
+.menu {
+	float: right;
+
+	margin-top: -50px;
+}
+
+.menuItem {
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+}
