@@ -1,0 +1,11 @@
+{
+  "name": "if-website",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+  }
+}
