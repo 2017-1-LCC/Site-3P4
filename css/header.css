@@ -1,17 +1,93 @@
 .barraLateral {
 	background-color: #333;
 	color: white;
+   margin: 0;
+   padding: 0;
+   overflow: auto;
 
-	position: absolute;
-	height: 800px;
+   position: fixed;	
+	width: 20%; height: 100%; 
 }
 
-.menu {
-	list-style: none;
-	margin-top: 4em;	
+.barraLateral a {
+   display: block;
+   color: white;
+   padding: 20px;
+   border-radius: 5px;
+
+   transition: 100ms;   
+}
+   .barraLateral a:hover {
+      transform: scale(1.03);
+      background-image: linear-gradient(-260deg, #232526, #414345);
+      color: white;
+      text-decoration: none;
+   }
+
+.logoIF {
+   width: 100%;
+   padding: 10px;
+   height: auto;
 }
 
-.menuItem { 
-	display: block;
-	font-size: 1.5em;
+.barraLateral .icon {
+  display: none;
+}
+
+.itemBarra {
+   font-size: 1.4em;
+   margin: 9.4px;
+}
+
+@media screen and (max-width: 700px) {
+  .barraLateral {
+    width: 101%;
+    height: auto;
+    position: relative;
+  }
+
+  .barraLateral a:not(:first-child) { display: none; }
+
+  .barraLateral a.icon {
+    float: right;
+    display: block;
+  }
+
+  .barraLateral a.icon img {
+      width: 4em;
+  }
+
+  .barraLateral.responsivo { position: relative; }
+
+  .barraLateral.responsivo .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .barraLateral.responsivo a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .logoIF {
+      width: 40%;
+  }  
+}
+
+@media screen and (max-width: 415px) {
+   
+   .barraLateral {
+      width: 102.5%;
+   }
+
+  .barraLateral a {
+    text-align: center;
+    float: none;
+  }
+
+  .logoIF {
+      width: 60%;
+  }
 }
