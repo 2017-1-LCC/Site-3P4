@@ -1,21 +1,17 @@
-.cabecalho {
+.barraLateral {
 	background-color: #333;
 	color: white;
 
-   width: 100%;
+	position: absolute;
+	height: 800px;
 }
 
-.logo {
-   padding: 10px;   
-}
-
-.menu { 
-   float: right; 
-   margin-top: -65px;
-}
-
-.menuItem {
+.menu {
 	list-style: none;
-	display: inline-block;
-	padding: 0 5px;   
+	margin-top: 4em;	
+}
+
+.menuItem { 
+	display: block;
+	font-size: 1.5em;
 }
