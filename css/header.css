@@ -42,7 +42,7 @@ html {
    margin: 9.4px;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 870px) {
   .barraLateral {
     width: 100%;
     height: auto;
@@ -55,12 +55,10 @@ html {
     margin-top: 2.5%;
   }
     .itemBarra:hover {
-      transform: scale(1.01);
+      transform: scale(1.05);
     }
 
   #conteudo {
-    width: 100%;
-    margin-left: -15%;
     margin-top: 13%;
   }
 
@@ -72,6 +70,16 @@ html {
     float: left;
   } 
 }
+
+@media screen and (max-width: 765px) {
+  #conteudo {
+    margin-left: 1%;
+  }
+
+  .titulo {
+    width: 100%;
+  }
+} 
 
 @media screen and (max-width: 415px) {
    

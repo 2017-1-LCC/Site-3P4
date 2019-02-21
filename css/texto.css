@@ -57,6 +57,9 @@
 
 .perguntas {
    margin-left: 27%;
+   font-size: 3vh;
+
+   color: #4A5567;
 }
    .perguntas li {   
       padding: 10px;
@@ -70,18 +73,26 @@
    border: 1px solid #333;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 870px) {
+   .titulo, .paragrafo, .subTitulo, .citacao {
+      margin-left: 4%;
+   }
+
    .paragrafo {
       font-size: 3.3vh;
-      width: 100%;            
+      width: 100%;           
    }
 
    .titulo {
-      width: 100%;;
+      width: 100%;
    }
 
    .subTitulo {
       font-size: 4vh;
+   }
+
+   .citacao {
+      width: 100%;
    }
 }
 
@@ -89,7 +100,7 @@
 
    .paragrafo {
       margin-left: 4%;
-      font-size: 5vh;            
+      font-size: 3.3vh;            
    }
 
    .titulo {
