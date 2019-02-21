@@ -25,8 +25,16 @@ section div {
    height: 22em;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 870px) {
    .galeria {
       width: 95%;
+      margin-left: 2.7em;
+   }
+}
+
+@media screen and (max-width: 766px) {
+   .galeria {
+      margin-left: 1em;
+      width: 100%;
    }
 }

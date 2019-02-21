@@ -94,18 +94,32 @@
    .citacao {
       width: 100%;
    }
+
+   .perguntas {
+      margin-left: 8%;
+   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 766px) {
+   .titulo, .paragrafo, .subTitulo, .citacao {
+      margin-left: -4%;
+   }
+
+   .container {
+      max-width: 70em;
+   }
 
    .paragrafo {
-      margin-left: 4%;
-      font-size: 3.3vh;            
+      font-size: 3vh;
+      width: 115%;            
    }
 
    .titulo {
-      width: 92%;
-      margin-left: 5%;
+      width: 115%;
+   }
+
+   .perguntas {
+      margin-left: 1%;
    }
 }
 
