@@ -1,12 +1,12 @@
 .rede {
   width: 45px;
   float: left;
-  margin-left: 10%;
+  margin-left: 2.3vw;
+  font-size: 3.5vh;
 }
 
 .fa {
-  padding: 13.5px;
-  font-size: 30px;
+  padding: 13.5px;    
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -26,7 +26,7 @@
   }
 
 .fa-facebook:hover {
-  color: #3B5998;
+  color: #5f7ec1;
 }
 
 .fa-instagram:hover {
@@ -35,4 +35,12 @@
 
 .fa-whatsapp:hover {
   color: #25D366;
+}
+
+@media screen and (max-width: 970px)
+{
+  .rede {
+    margin-left: 7%;
+    font-size: 3vh;
+  }
 }

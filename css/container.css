@@ -24,3 +24,9 @@ section div {
 .carousel-item img {
    height: 22em;
 }
+
+@media screen and (max-width: 840px) {
+   .galeria {
+      width: 95%;
+   }
+}

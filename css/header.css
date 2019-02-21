@@ -42,19 +42,33 @@ html {
    margin: 9.4px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .barraLateral {
     width: 100%;
     height: auto;
-    position: relative;
   }
 
   .itemBarra {
+    display: inline-block;
+    float: right;
 
+    margin-top: 2.5%;
+  }
+    .itemBarra:hover {
+      transform: scale(1.01);
+    }
+
+  #conteudo {
+    width: 100%;
+    margin-left: -15%;
+    margin-top: 13%;
   }
 
+  .rede { display: none; }
+
   .logoIF {
-    width: 30%;
+    width: 12%;
+    height: auto;
     float: left;
   } 
 }

@@ -48,6 +48,8 @@
    margin-bottom: 0.8em;
    color: #333;
 
+   font-weight: bold;
+
    text-decoration: underline;
    text-underline-position: under;
    text-decoration-color: #3cb371;
@@ -66,6 +68,21 @@
 
    padding: 10px;
    border: 1px solid #333;
+}
+
+@media screen and (max-width: 840px) {
+   .paragrafo {
+      font-size: 3.3vh;
+      width: 100%;            
+   }
+
+   .titulo {
+      width: 100%;;
+   }
+
+   .subTitulo {
+      font-size: 4vh;
+   }
 }
 
 @media screen and (max-width: 700px) {
