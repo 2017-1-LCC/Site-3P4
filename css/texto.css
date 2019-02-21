@@ -1,0 +1,89 @@
+.paragrafo, .subTitulo, .citacao {
+   margin-left: 25%;
+}
+
+.paragrafo, 
+.subTitulo, 
+.carousel-caption, 
+.perguntas {
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulo {
+   width: 80%;
+   padding: 0.4em;   
+   margin-left: 24%;
+   background-image: linear-gradient(260deg, #4CB8C4, #516395);
+   color: white;
+
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.75em;
+
+   border-radius: 10px;
+   text-shadow: 2px 1px 3px #333;
+}
+
+.paragrafo {
+   text-indent: 3.3em;
+   text-align: justify;
+   font-size: 3.5vh; 
+}
+
+.destaque {
+   font-weight: bold;
+   color: #3cb371;
+
+   text-decoration: underline;
+   text-underline-position: under;
+}
+   .carousel-caption h5 { 
+      position: absolute;
+
+      top: 1em;
+      left: -3em; 
+   }
+
+.subTitulo {
+   margin-top: 1.6em;
+   margin-bottom: 0.8em;
+   color: #333;
+
+   text-decoration: underline;
+   text-underline-position: under;
+   text-decoration-color: #3cb371;
+}
+
+.perguntas {
+   margin-left: 27%;
+}
+   .perguntas li {   
+      padding: 10px;
+   }
+
+.citacao {
+   text-align: center;
+   font-size: 0.8em;
+
+   padding: 10px;
+   border: 1px solid #333;
+}
+
+@media screen and (max-width: 700px) {
+
+   .paragrafo {
+      margin-left: 4%;
+      font-size: 5vh;            
+   }
+
+   .titulo {
+      width: 92%;
+      margin-left: 5%;
+   }
+}
+
+@media screen and (max-width: 415px) { 
+   
+   .paragrafo {
+      font-size: 3.5vh;
+   } 
+}

@@ -1,0 +1,38 @@
+.rede {
+  width: 45px;
+  float: left;
+  margin-left: 10%;
+}
+
+.fa {
+  padding: 13.5px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  transition: all 0.3s ease-out;
+}
+  .fa:visited{
+    color: black;
+  }
+  .fa:hover {
+      opacity: 0,7;      
+      cursor: pointer;
+      transform: translateY(-7px);
+      text-decoration: none;
+  }
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-instagram:hover {
+  color: #c33;
+}
+
+.fa-whatsapp:hover {
+  color: #25D366;
+}

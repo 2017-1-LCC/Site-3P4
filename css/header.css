@@ -5,23 +5,25 @@ html {
 .barraLateral {
 	background-color: #333;
 	color: white;
-   margin: 0;
-   padding: 0;
-   overflow: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 
-   position: fixed;	
-	width: 20%; height: 100%; 
+  position: fixed;	
+	width: 22%; height: 100%;
+  
+  font-size: 0.7em;
 }
 
-.barraLateral a {
+.itemBarra {
    display: block;
    color: white;
-   padding: 20px;
+   padding: 15px;
    border-radius: 5px;
 
    transition: 100ms;   
 }
-   .barraLateral a:hover {
+   .itemBarra:hover {
       transform: scale(1.02);      
       background-color: gray;
       color: white;
@@ -29,60 +31,16 @@ html {
    }
 
 .logoIF {
-  width: 100%;   
-  content: url(../descubraoif_logo.png);
+  width: 88%;   
+  content: url(../img/descubraoif_logo.png);
   padding: 0;
   margin: 0;
-}
-
-.barraLateral .icon {
-  display: none;
 }
 
 .itemBarra {
    font-size: 1.4em;
    margin: 9.4px;
 }
-section{
-  margin: 50px auto;  
-  height: 50px;
-}
-.rede{
-  width: 45px;
-  height: 45px;
-  float: left;
-  margin-left: 20px;
-}
-.fa {
-  padding: 13.5px;
-  font-size: 20px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  color: white;
-  transition: all 0.4s ease-out;
-}
-.fa:visited{
-  color: white;
-}
-.fa:hover {
-    opacity: 0,7;
-    color: white;
-    cursor: pointer;
-    transform: translateY(-15px);
-}
-
-.fa-facebook {
-  background: #3B5998;
- }
-
-.fa-instagram {
-  background: #125688;
- }
- .fa-whatsapp {
-   background: #25D366;
- }
 
 @media screen and (max-width: 700px) {
   .barraLateral {
@@ -91,29 +49,8 @@ section{
     position: relative;
   }
 
-  .barraLateral a:not(:first-child) { display: none; }
+  .itemBarra {
 
-  .barraLateral a.icon {
-    float: right;
-    display: block;
-  }
-
-  .barraLateral a.icon img {
-      width: 3em;
-  }
-
-  .barraLateral.responsivo { position: relative; }
-
-  .barraLateral.responsivo .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .barraLateral.responsivo a {
-    float: none;
-    display: block;
-    text-align: left;
   }
 
   .logoIF {
