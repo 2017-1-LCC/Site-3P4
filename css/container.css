@@ -38,3 +38,24 @@ section div {
       width: 100%;
    }
 }
+
+@media screen and (max-width: 411px) {
+   .galeria {
+      width: 110%;
+      margin-left: 1px;
+   }
+
+   .carousel-item img {
+      height: 18em;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .galeria {
+      height: 10em;
+   }
+
+   .carousel-item img {
+      height: 14em;
+   }
+}

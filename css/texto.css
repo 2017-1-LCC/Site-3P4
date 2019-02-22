@@ -79,7 +79,7 @@
    }
 
    .paragrafo {
-      font-size: 3.3vh;
+      font-size: 5vh;
       width: 100%;           
    }
 
@@ -123,9 +123,18 @@
    }
 }
 
-@media screen and (max-width: 415px) { 
-   
+@media screen and (max-width: 411px) { 
    .paragrafo {
       font-size: 3.5vh;
-   } 
+   }
+
+   .titulo {
+      margin-left: 2%;
+      width: 105%;
+   }
+
+   .citacao {
+      width: 120%;
+      font-size: 3vh;
+   }
 }
