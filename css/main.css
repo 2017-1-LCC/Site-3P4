@@ -1,6 +1,22 @@
-@import url('header.css');
-@import url('container.css');
-@import url('texto.css');
+@import url('navbar.css');
+@import url('textos.css');
 @import url('sociais.css');
 @import url('bootstrap-grid.min.css');
 @import url('bootstrap.min.css');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+   background-color: #f9f9f9; 
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-fluid {
+   margin-top: 2em;
+}

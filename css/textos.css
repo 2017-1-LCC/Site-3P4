@@ -1,0 +1,68 @@
+.titulo {
+   margin: 3em 0;
+}
+
+.titulo h1 {      
+   border-bottom: 5px solid #71ce94;
+   width: min-content;
+}
+
+.subTitulo {
+   color: #3e3e3e;
+   margin: 1.5em 0;
+
+   font-size: 4vh;
+   font-weight: bold;
+
+   text-decoration: underline;
+   text-underline-position: under;
+   text-decoration-color: #3cb371;
+}
+
+.destaque {
+   font-weight: bold;
+   color: #3cb371;
+
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+.paragrafo {
+   font-size: 3.5vh;
+   
+   text-align: justify;
+   text-indent: 1em;
+}
+
+.perguntas {
+   margin-left: 5%;
+   font-size: 3vh;
+
+   color: #4A5567;
+}
+   .perguntas li {   
+      padding: 10px;
+   }
+
+.citacao {
+   padding: 10px;
+   font-size: 3.3vh;
+   text-align: justify;
+   font-family: sans-serif;
+
+   border: 1px solid #333;
+}
+
+@media screen and (min-width: 550px) {
+   .paragrafo {
+      font-size: 4vh;
+   }
+
+   .subTitulo {
+      font-size: 4vh;
+   }
+
+   .perguntas {
+      font-size: 3.5vh;
+   }
+}

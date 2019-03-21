@@ -1,13 +1,13 @@
 .rede {
   width: 45px;
   float: left;
-  margin-left: 2.3vw;
-  font-size: 3.5vh;
+  margin-left: 14.5%;
+  font-size: 4.2vh;
 }
 
-.fa {
-  padding: 13.5px;    
-  width: 50px;
+section .fa {
+  padding: 0.5em;    
+  min-width: 2.7rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -15,32 +15,49 @@
   background-color: white;
   transition: all 0.3s ease-out;
 }
-  .fa:visited{
-    color: black;
-  }
-  .fa:hover {
-      opacity: 0,7;      
-      cursor: pointer;
-      transform: translateY(-7px);
-      text-decoration: none;
+  section .fa:hover {
+    background-color: white;      
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-7px);
+    text-decoration: none;
   }
 
-.fa-facebook:hover {
+section .fa-facebook:hover {
   color: #5f7ec1;
 }
 
-.fa-instagram:hover {
+section .fa-instagram:hover {
   color: #c33;
 }
 
-.fa-whatsapp:hover {
+section .fa-whatsapp:hover {
   color: #25D366;
 }
 
-@media screen and (max-width: 970px)
-{
+
+@media screen and (min-width: 411px) {
+  section .fa {
+    width: 2em;
+    font-size: 4vh;
+  }
+}
+
+@media screen and (min-width: 550px) {
   .rede {
-    margin-left: 7%;
-    font-size: 3vh;
+    margin-left: 18.5%; 
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section .fa {
+    background-color: transparent;    
+    color: white;
+  }
+
+  section .fa:hover {
+    background-color: transparent;
+    transform: translateY(-0.5px);
+    text-decoration: none;
   }
 }

@@ -1,0 +1,197 @@
+.barraNav {
+   background-color: #333;
+   padding: 10px;    
+   display: flex;
+   color: white;  
+
+   position: sticky;
+   top: 0;
+
+   flex-direction: column;
+}
+
+.barraNav_link {
+   padding: 20px;
+}
+
+.barraNav_link-botao {
+   align-self: flex-end;
+   display: initial;
+   position: absolute;
+   cursor: pointer;
+
+   margin-top: 0.2em;
+}
+
+.barraNav_itens {
+   display: none;
+   flex-direction: column;
+   text-align: center;
+}
+   .barraNav_itens a {
+      text-decoration: none;
+      color: white;    
+   }
+
+   .barraNav_itens:visited { color: white; }
+
+   .barraNav_itens a:hover {
+      background-color: gray;
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      padding: 15px;
+   }
+
+.barraNav_show {
+   display: flex;
+}
+
+.barraNav_hide {
+   display: none;
+}
+
+.logoIF {
+   width: 23%;
+   content: url('../imgs/descubraoif_logo.png');
+   float: left;
+}
+
+.tituloSite a {
+   float: left;
+   margin-top: 7%;
+   margin-left: 7%;
+   color: white;
+   text-decoration: none;
+
+   font-size: 3.3vh;
+}
+   .tituloSite a:visited {
+      color: white;
+   }
+
+
+@media screen and (min-width: 411px) {
+   .barraNav_link-botao {
+      top: -0.25em;
+      position: relative;
+   }
+
+   .barraNav_itens a {
+      font-size: 1.3em;
+   }
+}
+
+@media screen and (min-width: 550px) {
+   .logoIF {
+      width: 20%;
+   }
+
+   .tituloSite a {
+      font-size: 4vh;
+      margin-top: 6%;
+   }
+
+   .barraNav_link-botao {
+      margin-top: -3.8em;
+      font-size: 3.5vh;
+   }
+}
+
+@media screen and (min-width: 610px) {
+   .logoIF {
+      width: 15%;
+   }
+
+   .tituloSite a {
+      margin-top: 4%;
+   }
+
+   .barraNav_link-botao {
+      margin-top: -3.4em;
+   }
+}
+
+@media screen and (min-width: 700px) {
+   .tituloSite a {
+      margin-left: 2%;
+   }
+
+   .barraNav_link-botao {
+      margin-top: 0.4em;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .barraNav_link-botao {
+      display: none;
+   }
+
+   .barraNav {
+      padding: 0;
+   }
+
+   .barraNav_itens {
+      display: flex;
+      flex-direction: row;
+      align-self: flex-end;
+
+      margin-right: 12%;
+   }
+
+   .barraNav_sociais {
+      display: flex;
+      margin-top: 0.6%;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   .barraNav {
+      height: 5em;
+   }
+
+   .barraNav_itens a {     
+      font-size: 2.5vh;
+   }
+      .barraNav_itens a:hover {
+         padding: 0;
+         background: none;
+         text-decoration: underline;
+         text-underline-position: under;
+      }
+
+   .tituloSite a {
+      margin-top: 3%;
+   }
+
+   .logoIF {
+      width: 10%;
+   }
+
+   .barraNav_link {
+      padding: 15px;
+   }
+
+   .barraNav_itens {
+      align-self: auto;
+      margin-left: 39%;
+      margin-top: -8%;
+   }
+}
+
+@media screen and (min-width: 1300px) {   
+   .barraNav {
+      height: 6.7em;
+   }
+
+   .tituloSite a {
+      margin-top: 3.5%;
+   }
+
+   .barraNav_itens {
+      align-self: auto;
+      margin-left: 52%;
+      margin-top: -7%;
+   }
+
+}

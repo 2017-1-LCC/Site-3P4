@@ -1,3 +1,2 @@
-# Site-3P4
-
-- Site para a disciplina de PPP4 (3P4) :D
+# Site-3P4-refatorando-
+Refatorando o site da disciplina PPP4 (3P4)
