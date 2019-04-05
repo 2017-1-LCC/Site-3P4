@@ -215,19 +215,19 @@
 
 @media screen and (min-width: 1360px) {
    .barraNav {
-      height: 15vh;
+      height: 12.5vh;
    }
 
    .tituloSite a {
-      margin-top: 2.2%;
+      margin-top: 1.8%;
    }
 
    .barraNav_itens {
       margin-left: 47%;
-      margin-top: -5.8%;
+      margin-top: -5.7%;
    }
 
    .barraNav_sociais {
-      margin-top: 1%;
+      margin-top: 0%;
    }
 }
