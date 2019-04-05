@@ -191,16 +191,43 @@
 }
 
 @media screen and (min-width: 1280px) {   
+   .logoIF {
+      width: 7%;
+   }
+
    .barraNav {
-      height: 6.7em;
+      height: 12vh;
    }
 
    .tituloSite a {
-      margin-top: 3.5%;
+      margin-top: 1.8%;
    }
 
    .barraNav_itens {
-      margin-left: 48%;
-      margin-top: -7%;
+      margin-left: 47%;
+      margin-top: -6%;
+   }
+
+   .barraNav_sociais {
+      margin-top: -0.6%;
+   }
+}
+
+@media screen and (min-width: 1360px) {
+   .barraNav {
+      height: 15vh;
+   }
+
+   .tituloSite a {
+      margin-top: 2.2%;
+   }
+
+   .barraNav_itens {
+      margin-left: 47%;
+      margin-top: -5.8%;
+   }
+
+   .barraNav_sociais {
+      margin-top: 1%;
    }
 }
