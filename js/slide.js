@@ -1,13 +1,23 @@
 new Vue({
    el: '#fotos',
 
-   template: '<div>\
-                  <div :class="item.classe" v-for="item in imagens">\
-                     <img class="d-block w-100" :src="item.foto" :alt="item.alt">\
-                     <div class="carousel-caption d-none d-md-block">\
-                        <h5>{{ item.titulo }}</h5>\
-                     </div>\
-                  </div>\
+   template: '<div id="carouselEx" class="slideFotos carousel slide" data-ride="carousel"> \
+                  <div class="carousel-inner"> \
+                     <div :class="item.classe" v-for="item in imagens"> \
+                        <img class="d-block w-100" :src="item.foto" :alt="item.alt"> \
+                        <div class="carousel-caption d-md-block"> \
+                           <h5>{{ item.titulo }}</h5> \
+                        </div> \
+                     </div> \
+                  </div> \
+                     <a class="carousel-control-prev" href="#carouselEx" role="button" data-slide="prev"> \
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span> \
+                      <span class="sr-only">Previous</span> \
+                    </a> \
+                    <a class="carousel-control-next" href="#carouselEx" role="button" data-slide="next"> \
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span> \
+                      <span class="sr-only">Next</span> \
+                    </a> \
                </div>',
 
    data: function()

@@ -1,10 +1,9 @@
 .titulo {
-   margin: 3em 0;
-}
-
-.titulo h1 {      
    border-bottom: 5px solid #71ce94;
-   width: min-content;
+   width: max-content;
+   margin: 1.3em 0;
+
+   font-size: 7.2vh;
 }
 
 .subTitulo {

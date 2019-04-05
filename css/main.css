@@ -3,6 +3,7 @@
 @import url('sociais.css');
 @import url('bootstrap-grid.min.css');
 @import url('bootstrap.min.css');
+@import url('slide.css');
 
 * {
    box-sizing: border-box;
@@ -10,7 +11,10 @@
    padding: 0;
 }
 
-html { scroll-behavior: smooth; }
+html { 
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+}
 
 body {
    background-color: #f9f9f9; 

@@ -1,11 +1,12 @@
 .barraNav {
    background-color: #333;
-   padding: 10px;    
+   padding: 5px;    
    display: flex;
    color: white;  
 
    position: sticky;
    top: 0;
+   z-index: 0;
 
    flex-direction: column;
 }
@@ -18,7 +19,6 @@
    align-self: flex-end;
    display: initial;
    position: absolute;
-   cursor: pointer;
 
    margin-top: 0.2em;
 }
@@ -72,8 +72,12 @@
 
 
 @media screen and (min-width: 411px) {
+   .barraNav {
+      height: 5em;
+   }
+
    .barraNav_link-botao {
-      top: -0.25em;
+      top: -4.25em;
       position: relative;
    }
 
@@ -99,16 +103,20 @@
 }
 
 @media screen and (min-width: 610px) {
+   .barraNav {
+      height: 6.25em;
+   }
+
    .logoIF {
-      width: 15%;
+      width: 20%;
    }
 
    .tituloSite a {
-      margin-top: 4%;
+      margin-top: 6%;
    }
 
    .barraNav_link-botao {
-      margin-top: -3.4em;
+      margin-top: 0.5em;
    }
 }
 
@@ -123,13 +131,22 @@
 }
 
 @media screen and (min-width: 768px) {
-   .barraNav_link-botao {
-      display: none;
-   }
-
    .barraNav {
       padding: 0;
+      height: 7.5em;
    }
+
+   .barraNav_link-botao {
+      margin-top: 0.7em;
+   }   
+}
+
+@media screen and (min-width: 1000px) {
+   .barraNav {
+      height: 5em;
+   }
+
+   .barraNav_link-botao { display: none; }
 
    .barraNav_itens {
       display: flex;
@@ -142,12 +159,6 @@
    .barraNav_sociais {
       display: flex;
       margin-top: 0.6%;
-   }
-}
-
-@media screen and (min-width: 1000px) {
-   .barraNav {
-      height: 5em;
    }
 
    .barraNav_itens a {     
@@ -179,7 +190,7 @@
    }
 }
 
-@media screen and (min-width: 1300px) {   
+@media screen and (min-width: 1280px) {   
    .barraNav {
       height: 6.7em;
    }
@@ -189,9 +200,7 @@
    }
 
    .barraNav_itens {
-      align-self: auto;
-      margin-left: 52%;
+      margin-left: 48%;
       margin-top: -7%;
    }
-
 }

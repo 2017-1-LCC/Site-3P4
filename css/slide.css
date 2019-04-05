@@ -1,0 +1,20 @@
+.slideFotos {
+   margin-bottom: 1em;
+   margin-top: -1.875em;
+}
+
+.slideFotos img {
+   height: 17.5em;
+}
+
+@media screen and (min-width: 768px) {
+   .slideFotos img {
+      height: 23.5em;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   .slideFotos img {
+      height: 25em;
+   }
+}
