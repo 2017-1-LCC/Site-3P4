@@ -1,7 +1,7 @@
 .titulo {
    border-bottom: 5px solid #71ce94;
    width: max-content;
-   margin: 1.3em 0;
+   margin: 1.3em auto;
 
    font-size: 7.2vh;
 }
